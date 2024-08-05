@@ -24,5 +24,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-// dixitnandaniya2001@gmail.com
-// Dix@123@123
