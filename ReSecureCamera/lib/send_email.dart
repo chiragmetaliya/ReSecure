@@ -3,9 +3,9 @@ import 'package:mailer/smtp_server.dart';
 
 class EmailService {
   static const String _username =
-      'dixitnandaniya2001@gmail.com'; // Replace with your Elastic Email API key
+      'Elastic Email API User Name here'; // Replace with your Elastic Email API key
   static const String _password =
-      'C2CA318D0792B102FBBE6B54488D7F7BE5F0'; // Replace with your Elastic Email API key
+      'YOUR KEY'; // Replace with your Elastic Email API key
 
   Future<void> sendEmail(String toEmail, String subject, String body) async {
     final smtpServer = SmtpServer(
