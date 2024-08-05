@@ -6,7 +6,7 @@ Future publishConnect(RTCVideoRenderer localRenderer, String streamName,
     bool isBackCamera) async {
   // Setting subscriber options
   DirectorPublisherOptions directorPublisherOptions = DirectorPublisherOptions(
-      token: '8c0756e4c7bbabaf59fd8a823e5ae037238d16e62377e1dd8a64a24f465babaf',
+      token: 'YOUR TOKEN HERE',
       streamName: streamName);
 
   /// Define callback for generate new token
